@@ -1,0 +1,54 @@
+footer {
+    padding: 100px 120px 120px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-contact {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer-contact .icon {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.footer-contact .logo h6 {
+    color: rgba(27, 28, 87, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.footer-contact .p  {
+   color: rgba(98, 102, 135, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+footer a {
+    text-decoration: none;
+    color: rgba(136, 139, 151, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.footer-lien {
+    display: flex;
+    gap: 88px;
+}
+.footer-lien .lien-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+}
+.footer-lien .small-title {
+    color: rgba(14, 23, 53, 1);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}

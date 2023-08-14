@@ -1,0 +1,108 @@
+#about-us-container {
+    margin-top: 120px;
+    overflow: hidden;
+    height: 630px;
+}
+#about-us-container .text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+#about-us-container .recommendation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+#about-us-container .title{
+   color: rgba(27, 28, 87, 1);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+}
+#about-us {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    margin-left: -30%;
+}
+#about-us .row {
+    position: relative;
+}
+#about-us .text-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50px);
+    width: 612px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0 9px 32px 0 rgba(89, 92, 219, 0.05);
+    padding: 32px;
+}
+#about-us .small-title {
+   color: rgba(27, 28, 87, 1);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+#about-us .block-1 p {
+    color: rgba(98, 102, 135, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 16px;
+}
+#about-us .block-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#about-us  .content-1 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+#about-us  .content-2 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+#about-us .block-2 .nom {
+    color: rgba(14, 23, 53, 1);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+}
+#about-us .block-2 p {
+    color: rgba(136, 139, 151, 1);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+}
+#about-us-container .btn button {
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+}
+#about-us-container .btn {
+    position: relative;
+    top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#about-us-container .btn-1 {
+    background: rgba(98, 102, 135, 1)!important;
+}
+#about-us-container .btn-2 {
+    background: rgba(14, 23, 53, 1)!important;
+}
