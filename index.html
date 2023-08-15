@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/selling.css">
     <link rel="stylesheet" href="assets/css/subscribe.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <title>Hounter</title>
 </head>
@@ -21,16 +22,20 @@
                     <img src="assets/pictures/logo/logo (1).png" alt="logo">
                     <div class="title-logo">Hounter</div>
                 </div>
-                <div class="nav-right">
+                <div class="toggle" id="menuBtn">
+                    <i class="fa-solid fa-bars ouvrir"></i>
+                    <i class="fa-solid fa-xmark fermer"></i>
+                </div>
+                <div class="nav-right" id="sideMenu">
                     <div class="button">
-                        <a href="#" class=" btn-1">About Us</a>
-                        <a href="#" class="btn-2">Article</a>
-                        <a class="btn-3" href="#">
+                        <a href="#" class="item-nav btn-1">About Us</a>
+                        <a href="#" class="item-nav btn-2">Article</a>
+                        <a class="item-nav btn-3" href="#">
                             Property &nbsp;
                             <img src="assets/icons/eva_arrow-ios-forward-fill.png" alt="">
                         </a>
                     </div>
-                    <button class="btn">Sign Up!</button>
+                    <button class="item-nav btn">Sign Up!</button>
                 </div>
             </nav>
         </header>
@@ -61,7 +66,7 @@
             </div>
             <div class="ovale"></div>
             <div class="second-row">
-                <img class="fond" src="assets/pictures/houses/house2.png" alt="house 2">
+                <img class="fond" src="assets/pictures/houses/bg.png" alt="house 2">
                 <div class="button">
                     <div class="btn btn-1">
                         <div class="img">
@@ -92,7 +97,7 @@
             </div>
         </div>
     </section>
-<main>
+<main id="main">
     <section id="featuredHouse">
         <div class="house-container">
             <div class="recommendation">
@@ -102,16 +107,19 @@
             <div class="adresse-row">
                 <h3>Featured house</h3>
                 <div class="button">
-                    <button class="btn-1">
-                        <img src="assets/icons/house-fill.png" alt="house">&nbsp;
+                    <button class="btn">
+                        <img class="icon-beige" src="assets/icons/home-48%20(1).png" alt="home">
+                        <img class="icon-vert" src="assets/icons/home-48.png" alt="home">&nbsp;
                         House
                     </button>
-                    <button class="btn-2">
-                        <img src="assets/icons/villa.png" alt="villa">&nbsp;
+                    <button class="btn">
+                        <img  class="icon-beige" src="assets/icons/villa%20(2).png" alt="villa">
+                        <img  class="icon-vert" src="assets/icons/villa%20(3).png" alt="villa">&nbsp;
                         Villa
                     </button>
-                    <button class="btn-3">
-                        <img src="assets/icons/apartment.png" alt="appartement">&nbsp;
+                    <button class="btn">
+                        <img  class="icon-beige" src="assets/icons/apartment-48%20(1).png" alt="appartement">
+                        <img  class="icon-vert" src="assets/icons/apartment-48.png" alt="appartement">&nbsp;
                         Apartment
                     </button>
                 </div>
@@ -262,7 +270,7 @@
         </div>
         <div class="img-house">
            <div class="video">
-               <a href="#"><img src="assets/pictures/houses/house04.png" alt="house 04"></a>
+               <a href="#"><img class="house" src="assets/pictures/houses/house04.png" alt="house 04"></a>
                <a href="#"><img class="play" src="assets/icons/play-video.png" alt="video play"></a>
            </div>
             <div class="furniture">
@@ -278,11 +286,11 @@
                 <div class="line"></div>
                 <div class="text">See Our Review</div>
             </div>
-            <div  class="title">What Our User Say About Us</div>
+            <h3  class="title">What Our User Say About Us</h3>
         </div>
         <div id="about-us">
             <div class="row">
-                <img src="assets/pictures/houses/house05.png" alt="house 5">
+                <img class="img" src="assets/pictures/houses/house05.png" alt="house 5">
                 <div class="text-container">
                     <div class="block-1">
                         <div class="small-title">Best! I got the house I wanted through Hounter</div>
@@ -305,8 +313,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <img src="assets/pictures/houses/house05.png" alt="house 5">
+            <div class="row rows">
+                <img  class="img" src="assets/pictures/houses/house05.png" alt="house 5">
                 <div class="text-container">
                     <div class="block-1">
                         <div class="small-title">Best! I got the house I wanted through Hounter</div>
@@ -329,8 +337,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <img src="assets/pictures/houses/house05.png" alt="house 5">
+            <div class="row rows">
+                <img  class="img" src="assets/pictures/houses/house05.png" alt="house 5">
                 <div class="text-container">
                     <div class="block-1">
                         <div class="small-title">Best! I got the house I wanted through Hounter</div>
@@ -353,11 +361,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="btn">
-            <div class="btn-1"></div>
-            <div class="btn-2"></div>
-            <div class="btn-1"></div>
         </div>
     </section>
     <section id="selling-buying">
@@ -366,7 +369,7 @@
                 <div class="line"></div>
                 <div class="text">See tips and trick from our partnership</div>
             </div>
-            <div  class="title">Find out more about  selling and buying homes</div>
+            <h3  class="title">Find out more about  selling and buying homes</h3>
            <button>More Artikel</button>
         </div>
         <div class="buying">
@@ -454,7 +457,7 @@
                 </div>
             </div>
             <div class="contact">
-                <div  class="title">Find out more about  selling and buying homes</div>
+                <h3  class="title">Find out more about  selling and buying homes</h3>
                 <form method="get" action="">
                     <div class="email">
                         <img src="assets/icons/email.png" alt="email">
@@ -521,6 +524,7 @@
         </div>
     </div>
 </footer>
-<script src="assets/js/fontawesome.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/fontawesome.js"></script>
 </body>
 </html>

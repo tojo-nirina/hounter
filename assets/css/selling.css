@@ -2,17 +2,20 @@
     margin-top: 120px;
     padding: 0 120px;
 }
+
 #selling-buying .text-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
+
 #selling-buying .recommendation {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 8px;
 }
+
 #selling-buying .title{
     color: rgba(27, 28, 87, 1);
     font-size: 32px;
@@ -23,6 +26,7 @@
     width: 422px;
     margin: auto;
 }
+
 #selling-buying button {
     border-radius: 32px;
     background: rgba(16, 185, 129, 1);
@@ -34,41 +38,49 @@
     display: flex;
     justify-content: center;
 }
+
 /*****/
 .buying {
     display: flex;
     justify-content: space-between;
     margin-top: 45px;
 }
+
 .buying-container {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
+
 .buying-container .contenant {
     display: flex;
     align-items: center;
     gap: 32px;
 }
+
 .buying-container .row {
     width: 340px;
 }
+
 .contenant .row {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
+
 .contenant .nom {
     display: flex;
     align-items: center;
     gap: 8px;
 }
+
 .contenant .nom p {
     color: #3C4563;
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
 }
+
 .contenant .text .big-title {
     color: rgba(27, 28, 87, 1);
     font-size: 18px;
@@ -76,18 +88,21 @@
     line-height: 32px;
     text-transform: capitalize;
 }
+
 .contenant .date {
     display: flex;
     align-items: center;
     margin-top: 12px;
     gap: 8px;
 }
+
 .contenant .date p {
     color: rgba(136, 139, 151, 1);
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
 }
+
 .buying-row .big-title-second{
     color: rgba(27, 28, 87, 1);
     font-size: 24px;
@@ -95,10 +110,12 @@
     line-height: 32px;
     text-transform: capitalize;
 }
+
 .buying-row .row {
     width: 560px;
     margin-top: 20px;
 }
+
 .buying-row p {
     color: rgba(98, 102, 135, 1);
     font-size: 14px;

@@ -1,0 +1,435 @@
+@media screen and (max-width: 1400px){
+    header {
+        padding: 20px 40px;
+    }
+    .about-container {
+        padding-left: 40px;
+    }
+    #featuredHouse {
+        padding: 120px 0 120px 40px;
+    }
+    #sell {
+        padding: 40px;
+    }
+    #selling-buying {
+        margin-top: 120px;
+        padding: 0 40px;
+    }
+    #subscribe {
+        padding: 0 40px;
+    }
+    footer {
+        padding: 100px 40px 120px 40px;
+    }
+    .buying-container .contenant {
+        gap: 15px;
+    }
+    .adresse-row {
+        margin-right: 40px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .about-container {
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+    #about {
+        overflow: hidden!important;
+        height: auto;
+    }
+    #about .first-row {
+        margin-top: 0;
+    }
+    .search {
+       width: 70%;
+    }
+    #about .second-row {
+        position: relative;
+        height: 650px;
+        width: 100%;
+    }
+    #about .first-row {
+        margin-right: 30px;
+    }
+    .second-row .fond {
+        position: relative;
+        top: -91px;
+        width: 100%;
+        border-radius: 0 30px;
+    }
+    .ovale {
+        top: 400px;
+    }
+    /*.second-row .button {*/
+    /*    display: flex;*/
+    /*    justify-content: center;*/
+    /*    align-items: center;*/
+    /*    gap: 16px;*/
+    /*    position: relative;*/
+    /*    bottom: 250px;*/
+    /*    margin-left: 0;*/
+    /*}*/
+    .buying {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 45px;
+        gap: 40px;
+    }
+    .buying .contenant {
+        width: 100%;
+    }
+    .buying .buying-row a img {
+        width: 100%;
+    }
+
+    .subscribe-container {
+        align-items: flex-start;
+        height: 210px;
+    }
+    #subscribe .picture {
+        height: 100%;
+    }
+    #selling-buying .title {
+        width: 500px;
+    }
+}
+@media screen and (max-width: 1115px)  {
+    #sell {
+        flex-direction: column;
+    }
+    #sell hr {
+        width: 100% !important;
+    }
+    #sell .dianne-contact {
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    #featuredHouse {
+        padding: 50px 0 50px 40px;
+    }
+    .video a .house {
+        width: 100%;
+    }
+    .subscribe-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    #subscribe .picture {
+       display: none;
+    }
+    #subscribe .first-row {
+        width: 100%;
+    }
+    .picture-right .first-row {
+        align-items: center!important;
+    }
+    #selling-buying {
+        margin-top: 150px;
+        padding: 0 40px;
+    }
+    footer {
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .subscribe-container {
+        padding: 16px 16px;
+    }
+    #about-us {
+        flex-direction: column;
+        margin-left: 0!important;
+        align-items: start;
+        padding: 20px;
+        gap: 0;
+    }
+    #about-us-container {
+        overflow: visible;
+        height: auto;
+        margin-top: 70px;
+    }
+    #about-us .text-container {
+        width: 80%;
+    }
+    #about-us .row {
+       width: 100%;
+    }
+    #about-us .row .img {
+        width: 100% !important;
+    }
+    #about-us .rows {
+       margin-top: 70px;
+        width: 100%;
+    }
+    .contenant .row {
+       width: 100%;
+    }
+    .search {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .adresse-row {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+        gap: 10px;
+    }
+    .adresse-row .button {
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+    }
+    .adresse-row .second-button {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .buying-row p {
+       width: 100%;
+    }
+    #selling-buying .title {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 756px)  {
+    nav .toggle {
+        display: block;
+        z-index: 1;
+    }
+    .toggle .svg-inline--fa {
+        font-size: 30px;
+    }
+    .ouvrir {
+        display: block;
+    }
+    .fermer {
+        display: none;
+    }
+    .open .ouvrir {
+        display: none;
+    }
+    .open .fermer {
+        display: block;
+    }
+    .nav-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        backdrop-filter: blur(24px);
+        background: rgb(23 26 35 / 50%);
+        padding: 10px;
+        transform: translateX(-100%);
+        transition: 1s;
+    }
+    .open .nav-right {
+        transform: translateX(0);
+    }
+    /*******/
+    .blurred {
+        filter: blur(8px);
+    }
+    /*******/
+    .nav-right .button {
+        display: flex;
+        flex-direction: column;
+        gap: 55px;
+    }
+    .search {
+        width: 100%;
+        padding: 4px
+    }
+
+    #about-us {
+        margin-top: 0;
+    }
+    footer {
+        padding: 60px 20px 20px 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .house-container-second {
+        display: flex!important;
+        flex-direction: column!important;
+    }
+    h3 {
+        font-size: 24px!important;
+    }
+    #featuredHouse {
+        overflow: visible;
+    }
+    header {
+        padding: 10px 20px;
+    }
+    .about-container {
+        padding: 0;
+    }
+    #featuredHouse {
+        margin-top: 60px;
+        padding: 10px;
+    }
+    #about-us-container {
+        margin-top: 60px;
+    }
+    #sell {
+        padding: 10px;
+        margin-top: 60px;
+    }
+    #sell .text h3 {
+        text-align: center;
+    }
+    .recommendation {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .subscribe-container {
+        padding: 0;
+    }
+
+    #subscribe {
+        padding: 0 10px;
+    }
+    #selling-buying {
+        padding: 0 10px;
+    }
+    footer {
+        padding: 70px 20px 90px 20px!important;
+    }
+    .footer-lien {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+    .logo-row {
+        justify-content: space-between;
+        gap: 0;
+    }
+    .adresse-row {
+        margin-right: 0!important;
+        align-items: center;
+    }
+    #sell .dianne-contact {
+        gap: 10px;
+    }
+    .adresse-row .button {
+        gap: 0;
+    }
+    #about .first-row h1 {
+         width: 100%;
+        font-size: 30px;
+    }
+    #about .first-row {
+        margin-right: 0;
+        padding: 0 20px;
+    }
+    #about-us {
+        padding: 10px;
+    }
+    #about-us .text-container {
+        gap: 5px;
+    }
+
+    .ovale {
+        /*display: none;*/
+        /*position: absolute;*/
+        /*top: -300px;*/
+        /*left: 0;*/
+        /*z-index: -1;*/
+        /*!* width: 438px; *!*/
+        /*height: 494px;*/
+        /*transform: rotate(90deg);*/
+        /*flex-shrink: 0;*/
+        /*background: rgba(130, 255, 210, 1);*/
+        /*fill: #82FFD2;*/
+        /*opacity: 0.5;*/
+        /*filter: blur(60px);*/
+    }
+    .house-row .house-img {
+        width: 100%;
+    }
+    #about-us .rows {
+        margin-top: 100px;
+        width: 100%;
+    }
+    #sell .furniture {
+        display: none;
+    }
+
+    #sell .dianne-contact {
+        flex-direction: column;
+    }
+    #sell .text p {
+        margin-top: 15px;
+        width: 100%;
+    }
+    .contenant .text .big-title {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .buying-row .big-title-second {
+        font-size: 20px;
+    }
+    .buying-row .big-title-second {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .first-content h5 {
+        font-size: 18px;
+    }
+    #about-us .text-container {
+        padding: 0 32px;
+    }
+
+    #subscribe .contact {
+       width: 100%;
+    }
+    .subscribe-container {
+        margin-top: 60px;
+    }
+
+    #about-us .text-container {
+        position: relative;
+    }
+    main {
+        max-width: 95%;
+        margin: auto;
+    }
+
+}
+@media screen and (max-width: 500px)  {
+    .button button {
+        padding: 4px;
+    }
+}
+@media screen and (max-width: 466px)  {
+    .buying-container .contenant {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .buying-container .contenant a {
+        width: 100% !important;
+    }
+    .buying-container .contenant a img  {
+        width: 100% !important;
+    }
+    .logo-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+    #sell .same-thing {
+        gap: 10px;
+    }
+}

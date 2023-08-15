@@ -1,31 +1,36 @@
 #subscribe {
     padding: 0 120px;
 }
+
 .subscribe-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url("/assets/pictures/houses/bg.png") !important;
+    background-image: url("/assets/pictures/houses/bg2.png") !important;
     background-size: cover;
     padding: 38px 44px;
     margin-top: 122px;
     border-radius: 32px;
 }
+
 #subscribe .picture {
     display: flex;
     gap: 79px;
 }
+
 #subscribe .first-row {
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 54px;
 }
+
 .picture-right .first-row {
     display: flex!important;
     align-items: flex-end!important;
     gap: 29px!important;
 }
+
 #subscribe .second-row {
     display: flex;
     align-items: center;
@@ -34,10 +39,12 @@
     position: relative;
     top: 35px;
 }
+
 #subscribe .contact {
     text-align: center;
-    width: 422px;
+    width: 432px;
 }
+
 #subscribe .contact  form{
     display: flex;
     justify-content: space-between;
@@ -48,12 +55,14 @@
     margin-top: 24px;
     padding: 3px 3px 3px 20px;
 }
+
 #subscribe .contact .email {
     display: flex;
     align-items: center;
     gap: 10px;
     width: 98%;
 }
+
 #subscribe .title {
     color: rgba(27, 28, 87, 1);
     text-align: center;
@@ -62,17 +71,20 @@
     line-height: 48px;
     text-transform: capitalize;
 }
+
 #subscribe input {
     border: none;
     outline: none;
     width: 80%;
 }
+
 #subscribe ::placeholder {
     color: rgba(136, 139, 151, 1);
     font-size: 14px;
     font-weight: 500;
     line-height: 22px;
 }
+
 #subscribe form button {
     padding: 12px 16px;
     border-radius: 32px;

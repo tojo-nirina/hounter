@@ -3,23 +3,20 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
 * {
     margin: 0;
     padding: 0;
     font-style: normal;
 }
+
 /****/
 #sell {
     padding: 0 120px;
     display: flex;
     justify-content: space-between;
 }
-/*#sell  .text {*/
-/*    margin-top: 12px;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    gap: 16px;*/
-/*}*/
+
 #sell  .text h3 {
     color: rgba(27, 28, 87, 1);
     font-size: 32px;
@@ -27,6 +24,7 @@ body {
     line-height: normal;
     text-transform: capitalize;
 }
+
 #sell  .text p {
     color: rgba(98, 102, 135, 1);
     font-size: 16px;
@@ -34,23 +32,27 @@ body {
     line-height: 28px;
     width: 413px;
 }
+
 #sell  .text .bold {
     color: rgba(27, 28, 87, 1);
     font-size: 16px;
     font-weight: 600;
     line-height: 28px;
 }
+
 #sell .same-thing {
     display: flex;
     align-items: center;
     gap: 53px;
 }
+
 #sell .same-thing p {
    color: rgba(60, 69, 99, 1);
     font-size: 16px;
     font-weight: 500;
     line-height: normal;
 }
+
 #sell .block {
     display: flex;
     align-items: center;
@@ -58,34 +60,40 @@ body {
     margin-top: 16px;
     margin-bottom: 32px;
 }
+
 #sell hr {
     width: 440px;
     height: 2px;
     flex-shrink: 0;
 }
+
 #sell .dianne-contact {
     display: flex;
     align-items: center;
     gap: 56px;
     margin-top: 32px;
 }
+
 #sell .dianne {
     display: flex;
     align-items: center;
     gap: 16px;
 }
+
 #sell .dianne h6 {
     color: rgba(14, 23, 53, 1);
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
 }
+
 #sell .dianne .p {
     color: rgba(136, 139, 151, 1);
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
 }
+
 #sell .dianne-contact button{
     display: flex;
     align-items: center;
@@ -98,18 +106,22 @@ body {
     font-weight: 600;
     line-height: 22px;
 }
+
 #sell .img-house {
     position: relative;
 }
+
 #sell .video {
     position: relative;
     cursor: pointer;
 }
+
 #sell .furniture {
     position: absolute;
     bottom: -27px;
     left: -27px;
 }
+
 #sell .video .play {
     position: absolute;
     left: 50%;
