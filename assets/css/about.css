@@ -13,7 +13,7 @@ body {
 
 @font-face {
     font-family: 'Lexend';
-    src: url("../fonts/lexend/Lexend-Bold.ttf"),
+    src: url("../fonts/lexend/Lexend-SemiBold.ttf"),
     url("../fonts/lexend/Lexend-SemiBold.ttf");
 
 }
@@ -259,7 +259,7 @@ a {
 .second-row .btn {
     display: flex;
     align-items: center;
-    padding: 24px 0;
+    padding: 24px;
     gap: 16px;
     border-radius: 32px;
     background: #FFF;
@@ -297,8 +297,7 @@ a {
     font-weight: 600;
     line-height: 24px;
 }
-.bt
-n .text p {
+.btn .text p {
     color: #68799F;
     font-size: 12px;
     font-weight: 400;

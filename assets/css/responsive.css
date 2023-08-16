@@ -62,15 +62,6 @@
     .ovale {
         top: 400px;
     }
-    /*.second-row .button {*/
-    /*    display: flex;*/
-    /*    justify-content: center;*/
-    /*    align-items: center;*/
-    /*    gap: 16px;*/
-    /*    position: relative;*/
-    /*    bottom: 250px;*/
-    /*    margin-left: 0;*/
-    /*}*/
     .buying {
         display: flex;
         flex-direction: column-reverse;
@@ -221,31 +212,33 @@
     .nav-right {
         position: absolute;
         top: 0;
-        left: 0;
+        right: 0;
         width: 50%;
         height: 100vh;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
         backdrop-filter: blur(24px);
         background: rgb(23 26 35 / 50%);
         padding: 10px;
-        transform: translateX(-100%);
+        transform: translateX(100%);
         transition: 1s;
     }
     .open .nav-right {
         transform: translateX(0);
     }
-    /*******/
+    /****/
     .blurred {
         filter: blur(8px);
     }
-    /*******/
+    /****/
     .nav-right .button {
         display: flex;
         flex-direction: column;
+        align-items: start;
         gap: 55px;
     }
+
     .search {
         width: 100%;
         padding: 4px
@@ -266,9 +259,10 @@
     }
     h3 {
         font-size: 24px!important;
+        line-height: 30px!important;
     }
-    #featuredHouse {
-        overflow: visible;
+    .second-row .button {
+        margin-left: 20px;
     }
     header {
         padding: 10px 20px;
@@ -276,12 +270,15 @@
     .about-container {
         padding: 0;
     }
+    #about-us-container {
+        margin-top: 60px;
+    }
+    #featuredHouse {
+        overflow: visible;
+    }
     #featuredHouse {
         margin-top: 60px;
         padding: 10px;
-    }
-    #about-us-container {
-        margin-top: 60px;
     }
     #sell {
         padding: 10px;
@@ -305,7 +302,7 @@
         padding: 0 10px;
     }
     footer {
-        padding: 70px 20px 90px 20px!important;
+        padding: 70px 20px 30px 20px!important;
     }
     .footer-lien {
         display: flex;
@@ -397,6 +394,7 @@
     }
     .subscribe-container {
         margin-top: 60px;
+        padding: 12px;
     }
 
     #about-us .text-container {
@@ -405,6 +403,11 @@
     main {
         max-width: 95%;
         margin: auto;
+    }
+    footer .ovales {
+        top: 400px;
+        left: 0;
+        right: 0;
     }
 
 }

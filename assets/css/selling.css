@@ -23,7 +23,7 @@
     line-height: normal;
     text-transform: capitalize;
     text-align: center;
-    width: 422px;
+    width: 430px;
     margin: auto;
 }
 
@@ -44,6 +44,23 @@
     display: flex;
     justify-content: space-between;
     margin-top: 45px;
+    position: relative;
+}
+
+.buying .ovales {
+    position: absolute;
+    bottom: 0;
+    top: -200px;
+    left: -140px;
+    z-index: -1;
+    width: 338px;
+    height: 294px;
+    transform: rotate(90deg);
+    flex-shrink: 0;
+    background: rgba(130, 255, 210, 1);
+    fill: #82FFD2;
+    opacity: 0.5;
+    filter: blur(60px);
 }
 
 .buying-container {
