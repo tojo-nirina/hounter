@@ -101,26 +101,23 @@
     line-height: 22px;
 }
 
-#about-us-container .btn button {
-
-}
-/******/
-.btn-indicator .btn {
-    position: relative;
-    top: 200px;
+.carousel-indicators {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
-    width: 118px;
-    height: 118px;
-    border-radius: 5px;
+    position: relative;
+    top: 90px;
 }
 
-.btn-indicator .btn-1 {
-    background: rgba(98, 102, 135, 1)!important;
+.indicator {
+    width: 10px;
+    height: 10px;
+    background: rgba(136, 139, 151, 1);
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-.btn-indicator .btn-2 {
-    background: rgba(14, 23, 53, 1)!important;
+.indicator:hover {
+    background:rgba(27, 28, 87, 1);
 }
